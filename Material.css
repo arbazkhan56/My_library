@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.intro {
+    border: 3px solid black;
+    width: 20%;
+    height: 100vh;
+    float: left;
+}
+
+.content {
+    border: 3px solid red;
+    width: 80%;
+    height: 100vh;
+    float: right;
+}
+
+.logo {
+
+    font-size: 3rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+
+}
+
+/* Accordian Start left */
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+
+.accordian_1 {
+    padding: 1rem;
+}
+
+.int-1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+}
+
+.lorem_1 {
+    padding: 2px;
+    border-style: none;
+    background-color: transparent;
+    line-height: 28px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* Accordian end left  */
+.righ_top {
+    font-size: 3rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.Min_cont {
+    padding: 5rem;
+}
+
+.show_snipet {
+    border: 2px solid red;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.interior_1 {
+    padding: 11px;
+    background-color: blue;
+    color: white;
+    width: 65px;
+    border-style: none;
+    border-radius: 10px 0 0 10px;
+    border-right: 2px solid black;
+    /* position: relative;
+    overflow: hidden; */
+
+
+}
+
+/* .interior_1 span_1 {
+    position: absolute;
+    border-radius: 50%; */
+/* To make it round */
+/* background-color: rgba(0, 0, 0, 0.3);
+    width: 50px;
+    height: 50px;
+    margin-top: -50px; */
+/* for positioning */
+/* margin-left: -50px;
+
+    animation: ripple 1s;
+    opacity: 0;
+} */
+
+/* Add animation */
+/* @keyframes ripple {
+    from {
+        opacity: 1;
+        transform: scale(0);
+    }
+
+    to {
+        opacity: 0;
+        transform: scale(10);
+    }
+} */
+
+.interior_1:hover {
+    transition: 0.2s;
+    cursor: pointer;
+    background-color: darkblue;
+}
+
+.interior_2 {
+    padding: 11px;
+    background-color: blue;
+    color: white;
+    width: 65px;
+    border-style: none;
+    border-right: 2px solid black;
+}
+
+.interior_2:hover {
+    transition: 0.2s;
+    cursor: pointer;
+    background-color: darkblue;
+}
+
+.interior_3 {
+    padding: 11px;
+    background-color: blue;
+    color: white;
+    width: 65px;
+    border-style: none;
+    border-radius: 0 10px 10px 0;
+}
+
+.interior_3:hover {
+    transition: 0.2s;
+    cursor: pointer;
+    background-color: darkblue;
+}
+
+.show_snipet_code {
+    border: 2px solid red;
+    height: 400px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+
+.interior_4 {
+    padding: 11px;
+    background-color: blue;
+    color: white;
+    width: 65px;
+    border-style: none;
+    border-radius: 10px 0 0 10px;
+    border-right: 2px solid black;
+}
+
+.interior_4:hover {
+    transition: 0.2s;
+    cursor: pointer;
+    background-color: darkblue;
+    box-shadow: 1px 0px 30px 3px rgba(0, 0, 0, 0.42);
+}
+
+.interior_5 {
+    padding: 11px;
+    background-color: blue;
+    color: white;
+    width: 65px;
+    border-style: none;
+    border-right: 2px solid black;
+}
+
+.interior_5:hover {
+    transition: 0.2s;
+    cursor: pointer;
+    background-color: darkblue;
+    box-shadow: 1px 0px 30px 19px rgba(0, 0, 0, 0.69);
+}
+
+.interior_6 {
+    padding: 11px;
+    background-color: blue;
+    color: white;
+    width: 65px;
+    border-style: none;
+    border-radius: 0 10px 10px 0;
+}
+
+.interior_6:hover {
+    transition: 0.2s;
+    cursor: pointer;
+    background-color: darkblue;
+    box-shadow: 1px 0px 30px 73px rgba(0, 0, 0, 0.67);
+}
+
+
+
+.interior_7 {
+    padding: 11px;
+    /* background-color: blue; */
+    color: Black;
+    width: 65px;
+    border-style: none;
+    border-radius: 10px 0 0 10px;
+    border-right: 2px solid black;
+}
+
+.interior_7:hover {
+    transition: 0.2s;
+    cursor: pointer;
+    color: white;
+    background-color: darkblue;
+    box-shadow: 1px 0px 30px 3px rgba(0, 0, 0, 0.42);
+}
+
+.interior_8 {
+    padding: 11px;
+    /* background-color: blue; */
+    color: black;
+    width: 65px;
+    border-style: none;
+    border-right: 2px solid black;
+}
+
+.interior_8:hover {
+    transition: 0.2s;
+    cursor: pointer;
+    color: white;
+    background-color: darkblue;
+    box-shadow: 1px 0px 30px 3px rgba(0, 0, 0, 0.42);
+}
+
+.interior_9 {
+    padding: 11px;
+    /* background-color: blue; */
+    color: black;
+    width: 65px;
+    border-style: none;
+    border-radius: 0 10px 10px 0;
+}
+
+.interior_9:hover {
+    transition: 0.2s;
+    cursor: pointer;
+    color: white;
+    background-color: darkblue;
+    box-shadow: 1px 0px 30px 3px rgba(0, 0, 0, 0.42);
+}
+
+.show_snipet_vertical {
+    border: 2px solid red;
+    height: 130px;
+    display: grid;
+    /* display: block; */
+    justify-content: center;
+    border-radius: 15px;
+}
+
+
+.interior_Vertical_1 {
+    padding: 11px;
+    background-color: blue;
+    color: white;
+    width: 65px;
+    border-style: none;
+}
+
+.interior_Vertical_1:hover {
+    transition: 0.2s;
+    cursor: pointer;
+    background-color: darkblue;
+    box-shadow: 1px 0px 30px 3px rgba(0, 0, 0, 0.42);
+}
+
+.interior_Vertical_2 {
+    padding: 11px;
+    background-color: blue;
+    color: white;
+    width: 65px;
+    border-style: none;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;;
+}
+
+.interior_Vertical_2:hover {
+    transition: 0.2s;
+    cursor: pointer;
+    background-color: darkblue;
+    box-shadow: 1px 0px 30px 3px rgba(0, 0, 0, 0.42);
+}
+
+.interior_Vertical_3 {
+    padding: 11px;
+    background-color: blue;
+    color: white;
+    width: 65px;
+    border-style: none;
+}
+
+.interior_Vertical_3:hover {
+    transition: 0.2s;
+    cursor: pointer;
+    background-color: darkblue;
+    box-shadow: 1px 0px 30px 3px rgba(0, 0, 0, 0.42);
+}
+

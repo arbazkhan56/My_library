@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.intro {
+    border: 3px solid black;
+    width: 20%;
+    height: 100vh;
+    float: left;
+}
+
+.content {
+    border: 3px solid red;
+    width: 80%;
+    height: 100vh;
+    float: right;
+}
+
+.logo {
+
+    font-size: 3rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+
+}
+
+/* Accordian Start left */
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+
+.accordian_1 {
+    padding: 1rem;
+}
+
+.int-1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+}
+
+.lorem_1 {
+    padding: 2px;
+    border-style: none;
+    background-color: transparent;
+    line-height: 28px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* Accordian end left  */
+.righ_top {
+    font-size: 3rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.Min_cont {
+    padding: 5rem;
+}
+
+.show_snipet {
+    border: 2px solid red;
+    height: 130px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.show_snipet_code {
+    border: 2px solid red;
+    height: 400px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.tooltip_right {
+    position: relative;
+}
+
+.tooltiptext_right {
+    visibility: hidden;
+    width: 90px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    top: -4px;
+    right: -96px;
+}
+
+.tooltip_right:hover .tooltiptext_right {
+    visibility: visible;
+}
+
+
+
+.tooltip_left {
+    position: relative;
+}
+
+.tooltiptext_left {
+    visibility: hidden;
+    width: 90px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    top: -4px;
+    right: 50px;
+}
+
+.tooltip_left:hover .tooltiptext_left {
+    visibility: visible;
+}
+
+
+
+.tooltip_top {
+    position: relative;
+}
+
+.tooltiptext_top {
+    visibility: hidden;
+    width: 90px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    top: -28px;
+    right: -20px;
+}
+
+.tooltip_top:hover .tooltiptext_top {
+    visibility: visible;
+}
+
+
+
+.tooltip_bottom {
+    position: relative;
+}
+
+.tooltiptext_bottom {
+    visibility: hidden;
+    width: 90px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    top: 23px;
+    right: -20px;
+}
+
+.tooltip_bottom:hover .tooltiptext_bottom {
+    visibility: visible;
+}
